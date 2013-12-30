@@ -18,6 +18,9 @@ J'ai mis a jour le .h, mais pas le Makefile : peut-etre faudrait-il regrouper de
 J'ai l'impression de n'avoir rien fait... Je viens demain a 9h... bon certainement 9h30 XD
 Voila, j'espere que je n'ai pas tout foire ^^
 
+EDIT : Wouhou ! J'ai reussi les push sur les deux git !! *danse de la joie* ^^ en fait j'ai fait un clone de github
+et j'ai copie/colle les fichiers changes/crees dans ce dossier et ensuite ad, commit et push (dsl, tu connais certainement
+deja cette methode mais je suis contente d'avoir reussi ^^ bonne nuit!)
 
 A faire :
 
