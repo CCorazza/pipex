@@ -1,8 +1,12 @@
 links 
 http://manpages.ubuntu.com/manpages/maverick/fr/man2/syscalls.2.html
 http://www.gnu.org/software/libc/manual/html_node/Environment-Variables.html
-
-
+http://www.tldp.org/LDP/lpg/node11.html
+http://beej.us/guide/bgipc/output/html/multipage/pipes.html
+https://intra.42.fr/module/2013/UNIX-1-001/PAR-1-1/acti-266/project/#!/forum/typo-dans-l-exemple-dans-le-sujet
+http://www.zeitoun.net/articles/communication-par-tuyau/start
+http://www.gnu.org/software/libc/manual/html_node/Environment-Variables.html
+http://www.gnu.org/software/libc/manual/html_node/Program-Arguments.html#Program-Arguments
 
 
 code
@@ -51,4 +55,3 @@ main(int argc, char *argv[])
         exit(EXIT_SUCCESS);
     }
 }
-4:04	ccorazza@jabber.42.fr	https://intra.42.fr/module/2013/UNIX-1-001/PAR-1-1/acti-266/project/#!/forum/typo-dans-l-exemple-dans-le-sujet
