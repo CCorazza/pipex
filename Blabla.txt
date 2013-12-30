@@ -4,8 +4,8 @@ resultats (pas tout teste...) :
 	si infile inexistant >> zsh: no such file or directory: inﬁle
 	
 
-"/!\ exit est une FONCTION, non un appel systeme... /!\
-execve, access, close, pipe, fork, wait sont des appels systeme"
+/!\ exit est une FONCTION, non un appel systeme... /!\
+execve, access, close, pipe, fork, wait sont des appels systeme
 
 
 /* je ne suis pas sure que les static doivent apparaitre dans le .h */
@@ -21,7 +21,7 @@ Voila, j'espere que je n'ai pas tout foire ^^
 
 A faire :
 
-"/!\ VERIFIER LA NORME /!\"
+/!\ VERIFIER LA NORME /!\
 > ft_manage_error : le "zsh" ne doit pas etre toujours 'present' : cela depend du shell utilise >> A GERER ?
 > quoi mettre dans pipefd[0] et pipefd[1] ?
 > gestion d'erreurs : les tests plus hauts, et qqs autres...
