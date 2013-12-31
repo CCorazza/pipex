@@ -1,0 +1,30 @@
+test :  < inﬁle ls -l | wc -l > outﬁle
+resultats (pas tout teste...) : 
+	si outfile inexistant >> le cree
+	si infile inexistant >> zsh: no such file or directory: inﬁle
+	
+
+/!\ exit est une FONCTION, non un appel systeme... /!\
+execve, access, close, pipe, fork, wait sont des appels systeme
+
+
+/* je ne suis pas sure que les static doivent apparaitre dans le .h */
+
+
+Bon je n'ai pas fait grand chose... J'ai "copie" les fonctions pour recuperer le path et faire le fork.
+J'ai ajoute a cette derniere le pipe, mais il nous manque une fonction qui recupere et separe les fichiers des commandes...
+Mais j'avoue que la je segfault ^^ desolee je n'ai pas enormement avance...
+J'ai mis a jour le .h, mais pas le Makefile : peut-etre faudrait-il regrouper des fonctions de la libft ?
+J'ai l'impression de n'avoir rien fait... Je viens demain a 9h... bon certainement 9h30 XD
+Voila, j'espere que je n'ai pas tout foire ^^
+
+EDIT : Wouhou ! J'ai reussi les push sur les deux git !! *danse de la joie* ^^ en fait j'ai fait un clone de github
+et j'ai copie/colle les fichiers changes/crees dans ce dossier et ensuite ad, commit et push (dsl, tu connais certainement
+deja cette methode mais je suis contente d'avoir reussi ^^ bonne nuit!)
+
+A faire :
+
+/!\ VERIFIER LA NORME /!\
+> ft_manage_error : le "zsh" ne doit pas etre toujours 'present' : cela depend du shell utilise >> A GERER ?
+> quoi mettre dans pipefd[0] et pipefd[1] ?
+> gestion d'erreurs : les tests plus hauts, et qqs autres...
